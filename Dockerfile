@@ -89,10 +89,6 @@ RUN git clone https://github.com/hrsh7th/nvim-cmp.git \
 RUN git clone https://github.com/L3MON4D3/LuaSnip.git \
     ~/.local/share/nvim/site/pack/packer/start/LuaSnip
 
-COPY ProdutosWarped.tex /ProdutosWarped.tex
-COPY preambleWarped.tex /preambleWarped.tex
-COPY notation.tex /notation.tex
-
 # Set the shell to zsh
 SHELL ["/bin/zsh", "-c"]
 
